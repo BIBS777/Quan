@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<link  type="image/x-icon" rel="icon" href="G9oJhqDS8M8aCEmqgiEKsMs.jpg">
+</head>
+<body>
+    <script src="script.js"></script>
+
+<!-- Logo -->
+
+<h1 class="Logo">Shan</h1>
+
+
+
+    <!--  for Login -->
+   <div class="box1">
+
+ 
+<div class="input">
+    <h1> Login</h1>
+
+    <div class="sm">
+        <button><box-icon name='google' type='logo' color='#ffffff' ></box-icon></button>
+        <button><box-icon name='facebook' type='logo' color='#ffffff' ></box-icon></button>
+        <button><box-icon name='github' type='logo' color='#ffffff' ></box-icon></button>
+        </div>
+
+<input type="email" class="email1" placeholder="Enter Email or Phone Number">
+
+<input type="password" placeholder="password">
+<a href="#reset"  onclick="toogleForget()"  class="reason">Forget Your Password ?</a>
+ <button class="btn1"> Login</button>
+<button  onclick="toogleForms()" id="create"> Create Account</p>
+
+
+</div>
+</div>
+
+<!-- For Sign Up -->
+
+<div class="box2">
+
+ 
+    <div class="output">
+    <h1 id="head"> Sign Up</h1>
+
+    <input type="email" class="email2" placeholder="Enter Email or Phone Number">
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder=" New Password">
+    <a id="i">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.</p>
+     <button class="btn2"> Sign Up</button>
+     <a id="request" href="#request" onclick="tooglesign()"> Already Have Account</a>
+     <p id="i">Or Sign Up Using </p>
+     <div class="sm">
+     <button><box-icon name='google' type='logo' color='#ffffff' ></box-icon></button>
+     <button><box-icon name='facebook' type='logo' color='#ffffff' ></box-icon></button>
+     <button><box-icon name='github' type='logo' color='#ffffff' ></box-icon></button>
+     
+     
+     
+    </div> 
+    </div>
+    </div>
+
+
+    <!-- Forget Your Password -->
+    <div class="Forget">
+ <div class="process">
+        <h1 id="head">Forget your Password </h1>
+    
+        <input type="email" class="email2" placeholder="Enter Email or Phone Number">
+        
+        <a id="i">Enter Your Email Address And we will send  you Link to reset</p>
+         <button class="btn2" onclick="tooglebackPopup()" >Submit</button>
+         <a id="request" href="#request" onclick="tooglebackLogin()" > Back To Login </a>
+       
+        </div>
+        </div>
+         <!-- Popup Message -->
+         <div class="Popup">
+            <div class="process">
+                   <h1 id="head"></h1>
+                  
+                  <button><box-icon name='envelope' type='solid' color='#ffffff' ></box-icon></button>
+                  <h1 id="head4">Verified Your Email Address</h1>
+
+
+                  <p id="text">A verification code has been sent to  <p id="text">yourmail@gmail.com</p></p>
+
+                  <p id="text">Please check your inbox and enter the verification code below to verify your email address. The code will expire in 30 minShan.</p>   
+                  <input type="text" class="email2" placeholder="Enter Code" maxlength="6">   
+                  <button class="btn2">Verify</button>
+                  
+                  
+                   </div>
+                   </div>
+
+                
+
+</body>
+</html>
